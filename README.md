@@ -1,2 +1,2 @@
 # TUM-Social-App-Applying-the-Strangler-Pattern
-The TUM Social App was initially developed as a monolithic application where all functionalities such as logging in, posting tweets, and following/unfollowing users were handled within a single component named ApplicationService
+The TUM Social App was initially developed as a monolithic application where all functionalities such as logging in, posting tweets, and following/unfollowing users were handled within a single component named ApplicationService. As the application grew in popularity, issues arose with scalability, maintenance, and load balancing due to the monolithic architecture. To address these challenges, the team opted to refactor the monolith into microservices using the Strangler Pattern.ce
